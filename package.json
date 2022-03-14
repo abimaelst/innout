@@ -1,0 +1,14 @@
+{
+  "name": "innout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "tailwindcss -i ./public/assets/css/input.css -o ./public/assets/css/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
